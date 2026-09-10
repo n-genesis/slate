@@ -1,0 +1,46 @@
+{
+  "name": "@n-genesis/slate",
+  "version": "1.0.0",
+  "description": "A beautiful, vanilla JavaScript HTML live-rendering engine. Only 30KB gzipped, zero dependencies.",
+  "author": "Andrew Garber (N-Gen Design) <https://ngendesign.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/n-genesis/slate",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n-genesis/slate"
+  },
+  "bugs": {
+    "url": "https://github.com"
+  },
+  "main": "dist/js/slate.js",
+  "style": "dist/css/slate.css",
+  "module": "dist/slate.esm.js",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "bootstrap5",
+    "wysiwyg",
+    "html-editor",
+    "javascript",
+    "minimalist",
+    "live-preview"
+  ],
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "start-serv": "npm run build && node ./scripts/web-app.js",
+    "build": "npm run build:script && npm run build:scss",
+    "build:scss": "node ./scripts/build-scss.js",
+    "build:script": "webpack --config ./scripts/webpack.config.js"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "sass": "^1.100.0",
+    "webpack": "^5.107.2",
+    "webpack-cli": "^7.0.3"
+  }
+}
