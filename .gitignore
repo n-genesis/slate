@@ -1,0 +1,11 @@
+# General
+CHANGELOG.md
+
+# Doc Website
+apps/*
+
+# Development scripts
+scripts/web-app.js
+
+# Dependency directories
+node_modules/
