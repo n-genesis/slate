@@ -1,5 +1,5 @@
 /**
- * @fileoverview Simple Boostrap 5 WYSIWYG Web Text Editor
+ * @fileoverview HTML engine for Bootstrap 5.
  * @version 1.0.0
  * @author Adrian G. (N-Gen Design) <ngendesign@email.com>
  * @license MIT
@@ -27,17 +27,17 @@
 export class Slate {
 
     constructor(selectorOrElement, options = {}) {
-        // If no selector or element is passed to ScriptSimpleEditor,
+        // If no selector or element is passed to Slate,
         if (!selectorOrElement) {
             // stop execution and throw error.
-            throw new Error('ScriptSimpleEditor expects a parameter which is Element or a String selector');
+            throw new Error('Slate expects an Element or a String selector aa a parameter');
         }
 
         if (selectorOrElement.nodeType) {
             // If it is an element, assign it directly
             this.element = selectorOrElement;
         } else {
-            // If it is a selector, tries to find element in the DOM
+            // If it is a selector, trys to find element in the DOM
             this.element = document.querySelector(selectorOrElement);
         }
 

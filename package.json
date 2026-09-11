@@ -1,7 +1,7 @@
 {
   "name": "@n-genesis/slate",
   "version": "1.0.0",
-  "description": "A beautiful, vanilla JavaScript HTML live-rendering engine. Only 30KB gzipped, zero dependencies.",
+  "description": "A beautiful, vanilla JavaScript HTML live-rendering engine.",
   "author": "Andrew Garber (N-Gen Design) <https://ngendesign.com>",
   "license": "MIT",
   "homepage": "https://github.com/n-genesis/slate",
