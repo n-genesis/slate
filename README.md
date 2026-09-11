@@ -50,9 +50,9 @@ Check out the interactive playground and see the minimalist architecture in acti
 Add the `ngen-press` script bundle directly and CSS styles into your HTML file:
 
 ```
-<link href="https://cdn.jsdelivr.net/gh/n-genesis/slate@1.0.0/dist/css/slate.css" rel="stylesheet">
+<link href="./css/slate.css" rel="stylesheet">
 ...
-<script src="https://cdn.jsdelivr.net/gh/n-genesis/slate@1.0.0/dist/js/slate.min.js"></script>
+<script src="./js/slate.min.js"></script>
 ```
 
 ### 2. Setup Your HTML Structure
