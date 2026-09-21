@@ -1,11 +1,11 @@
 /**
- * @fileoverview HTML engine for Bootstrap 5.
+ * @fileoverview A raw HTML engine for Bootstrap 5.
  * @version 1.0.0
  * @author Adrian G. (N-Gen Design) <ngendesign@email.com>
  * @license MIT
  * 
  * @class Slate
- * @description A simple, lightweight, open-source WYSIWYG Web text editor built with Bootstrap 5.
+ * @description A simple, lightweight, HTML engine styled with Bootstrap 5.
  * 
  * Features:
  * - Rich text formatting (bold, italic, underline, strikethrough)
@@ -203,7 +203,7 @@ export class Slate {
         // Create code view
         this.codeArea = document.createElement('textarea');
         this.codeArea.classList.add('slate-canvas-code');
-        this.codeArea.style.setProperty('height', this.options.height, 'important');
+        this.codeArea.style.setProperty('height', this.options.height);
         this.wrapper.append(this.codeArea);
 
         // Create statusbar

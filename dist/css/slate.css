@@ -55,6 +55,11 @@
   background: #f5f5f5;
 }
 
+.slate-canvas-wrapper.fullscreen .slate-canvas-content,
+.slate-canvas-wrapper.fullscreen .slate-canvas-code {
+  height: inherit !important;
+}
+
 /* ============================================
    TOOLBAR STYLES
    ============================================ */
