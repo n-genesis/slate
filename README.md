@@ -3,7 +3,7 @@
 ![Version](https://img.shields.io/badge/version-1.0.0-blue?style=for-the-badge)
 [![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-`slate` is an ultra-lightweight client-side JavaScript module that transforms standard textareas into an elegant, real-time live preview canvas. It strips away the bloat of traditional rich-text editors to give developers a simple vanilla JavaScript fully-featured HTML editor.
+`slate` is an ultra-lightweight JavaScript module that transforms standard textareas into an elegant, real-time live preview canvas. It strips away the bloat of traditional rich-text editors to give developers a simple vanilla JavaScript fully-featured HTML editor.
 
 ## Contents
 - [Key Features](#-key-features) 
