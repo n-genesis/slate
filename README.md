@@ -89,7 +89,6 @@ That’s it! The editor replaces the textarea in-place and stores the HTML outpu
 ## Theming & Dark Mode
 
 - Toolbar and content adapt automatically to light/dark mode via `theme-dark` class.
-- Demo pages include a toggle that adds `body.dark-mode`, theming headings, buttons, code blocks, and the editor wrapper together.
 - Code view and HTML preview force LTR direction, Consolas font, no left gutter, and sanitized indentation.
 
 To switch at runtime:
