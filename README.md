@@ -240,4 +240,4 @@ We welcome contributions from the open-source community to make web editing clea
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
-Developed with love by [N-Gen Design](https://ngendesign.com).
+Developed with love by [N-Gen Design](https://ngendesign.infinityfree.io).
