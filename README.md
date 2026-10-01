@@ -40,7 +40,7 @@
 ## 🚀 Live Demo
 
 Check out the interactive playground and see the minimalist architecture in action:
-👉 **[Launch Live Demo & Documentation](https://slate.infinityfree.io)**
+👉 **[Launch Live Demo & Documentation](https://slate.ngendesign.net)**
 
 ---
 
